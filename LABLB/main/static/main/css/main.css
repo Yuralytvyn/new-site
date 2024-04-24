@@ -1,0 +1,94 @@
+
+/* main.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* light gray */
+
+}
+
+.menu {
+    list-style-type: none;
+    background-color: #343a40; /* dark gray */
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #495057; /* darker gray */
+}
+
+.main a {
+    font-size: 20px;
+}
+
+
+
+.content {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    color: #212529; /* black */
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content .features {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add {
+    float: right;
+}
+
+.add a {
+    background-color: #007bff; /* blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.add a:hover {
+    background-color: #0056b3; /* darker blue */
+}
+
+.alert.alert-warning{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 40px;
+}
+
+.news{
+text-align: center;
+}
